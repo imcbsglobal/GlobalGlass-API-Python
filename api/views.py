@@ -94,7 +94,7 @@ def bulk_insert_raw_sql(model_class, data, table_name, columns):
 
 # Home URL
 def home(request):
-    return HttpResponse("Welcome to the OMEGA Sync API 🚀")
+    return HttpResponse("Welcome to the Global-Glass Sync API 🚀")
 
 
 @api_view(['DELETE'])
