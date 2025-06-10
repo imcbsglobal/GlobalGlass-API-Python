@@ -21,5 +21,6 @@ from api.views import home
 urlpatterns = [
     path('', home, name='home'),           # base URL
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls'))
+    path('api/', include('api.urls')),
+    path('app1/', include('app1.urls'))
 ]
